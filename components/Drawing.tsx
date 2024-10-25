@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Eraser, Calculator, Maximize2, Palette } from "lucide-react";
 import {
   Popover,
   PopoverTrigger,
@@ -18,6 +17,7 @@ import {
 import type { ProcessedResult } from "@/types";
 import "katex/dist/katex.min.css";
 import katex from "katex";
+import { Calculator, Eraser, Maximize2, Palette } from "lucide-react";
 
 const COLORS = [
   "#000000", // Black
