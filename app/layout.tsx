@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ipad Calculator",
+  title: "CalcAI",
   description: "AI powered calculator",
 };
 
